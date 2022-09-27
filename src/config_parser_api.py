@@ -13,12 +13,3 @@ class ConfigParserApi(ConfigParser):
     
     def get_url(self):
         return self.config['translate_api']['url']
-
-    # def wright_config(self):
-    #     print('testttttttttt"""""""""""""')
-    #     self.config['translate_apitest'] = {
-    #       "api_key" : "95edb2ec5f760356ecd1c4315980b6fa06330e0b5"
-    #     }
-    #     with open('config.ini', 'w') as config_file:
-    #         self.config.write(config_file)
-    #     return True
