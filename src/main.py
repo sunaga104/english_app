@@ -27,7 +27,7 @@ def main():
         elif event == 'register':
             input_word = values['input']
             output_word = values['output_msg']
-            # sqlLiteで登録処理を追加する
+            # sqLiteで登録処理を追加する
             window['input'].update(value="")
             window['output_msg'].update(value="")
             window['register'].update(visible=False)
